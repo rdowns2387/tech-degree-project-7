@@ -4,7 +4,6 @@ import NotFound from './NotFound';
 
 const ImageGallery = props => {
 	const results = props.data
-	console.log(results);
 	let imgs;
 	if (results.length > 0){
     imgs = results.map(img => <Image url={img.urls.small} key={img.id} />);

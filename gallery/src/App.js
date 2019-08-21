@@ -7,7 +7,6 @@ import Cats from './components/Cats';
 import Dogs from './components/Dogs';
 import Computers from './components/Computers';
 import Nav from './components/Nav';
-import NotFound from './components/NotFound';
 import ImageGallery from './components/ImageGallery';
 import FourOhFour from './components/FourOhFour';
 
